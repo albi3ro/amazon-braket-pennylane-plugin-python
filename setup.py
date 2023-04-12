@@ -28,7 +28,7 @@ setup(
     package_dir={"": "src"},
     install_requires=[
         "amazon-braket-sdk>=1.35.0",
-        "pennylane==0.29.1",
+        "pennylane",
     ],
     entry_points={
         "pennylane.plugins": [
@@ -59,7 +59,7 @@ setup(
             "sphinx-rtd-theme",
             "sphinxcontrib-apidoc",
             "tox",
-            "tensorflow>=2.6.0",
+            "tensorflow-macos>=2.6.0",
             "torch>=1.11",
         ]
     },
